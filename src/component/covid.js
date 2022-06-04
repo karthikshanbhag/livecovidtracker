@@ -22,7 +22,7 @@ const Covid = () => {
         <h2>COVID-19 CORONAVIRUS TRACKER</h2>
         <ul>
             <li className="card">
-                
+
             </li>
         </ul>
     </>
