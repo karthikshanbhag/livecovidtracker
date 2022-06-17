@@ -6,6 +6,7 @@ const Covid = () => {
     const  getCovidData = async () => {
         try {
             const res = await fetch('https://data.covid19india.org/data.json')
+            // console.log(fetch)
             const actualData = await res.json(); 
             console.log(actualData.statewise[0])
             setdata(actualData.statewise[0])
